@@ -167,12 +167,12 @@ inputs:
     description: "Whether to enable action debug logging"
     default: ${{ runner.debug }}
 
+# action.yml ফাইলের শেষ অংশ
 runs:
   using: 'docker'
-  image: 'Dockerfile
+  image: 'Dockerfile'
 
 branding:
   icon: 'activity'
   color: 'orange'
-
 
